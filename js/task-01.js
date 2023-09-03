@@ -5,7 +5,7 @@ const categoryItems = categoriesList.querySelectorAll("li.item");
 let categoryCount = 0;
 
 categoryItems.forEach((item) => {
-  categoryCount++;
+  categoryCount += 1;
 
   const categoryTitle = item.querySelector("h2");
 
